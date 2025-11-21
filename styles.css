@@ -1,4 +1,84 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+:root {
+    --font-primary: "Manrope", sans-serif;
+    --grey-20: #333333;
+    --grey-30: #4d4d4d;
+    
+}
+
+
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: #eeebe5;
+    font-family: var(--font-primary);
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+.benefits {
+    max-width: 1596px;
+    margin: 0 auto;
+}
+
+.benefits-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.benefits-header h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: var(--grey-20);
+}
+
+.benefits-header p {
+    font-size: 18px;
+    color: var(--grey-30);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+}
+
+.card {
+    background-color: #f7f6f3;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 150%;
+    color: var(--grey-20);
+}
+
+.card p {
+    font-size: 18px;
+    color: var(--grey-30);
+}
+
+.wide {
+    grid-column: span 3;
+}
+
+.narrow {
+    grid-column: span 2;
 }
