@@ -433,20 +433,19 @@ body {
     flex-direction: row;
     justify-content: center;
   }
-    
-/* Variables de Color (Exactas a la Imagen de Fondo Claro) */
+  
 :root {
-    --color-background: #F8F8F8;    /* Fondo principal: Gris muy claro / Casi blanco */
-    --color-card-bg: #FFFFFF;       /* Fondo de tarjetas: Blanco puro */
-    --color-text-dark: #232323;     /* Texto principal: Negro oscuro */
-    --color-text-light: #5B5B5B;    /* Texto secundario/párrafos: Gris oscuro */
-    --color-text-lighter: #8E8E8E;  /* Texto de copyright y menos importante */
-    --color-primary: #5700FF;       /* Color de acento: Púrpura brillante */
-    --color-border-light: #EEEEEE;  /* Borde/Línea divisoria: Gris muy claro */
-    --color-shadow-light: rgba(0, 0, 0, 0.05); /* Sombra muy sutil */
-    --color-shadow-medium: rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+    --color-background: #F8F8F8;    
+    --color-card-bg: #FFFFFF;       
+    --color-text-dark: #232323;     
+    --color-text-light: #5B5B5B;    
+    --color-text-lighter: #8E8E8E;  
+    --color-primary: #5700FF;       
+    --color-border-light: #EEEEEE;  
+    --color-shadow-light: rgba(0, 0, 0, 0.05); 
+    --color-shadow-medium: rgba(0, 0, 0, 0.1);
 
-    /* Colores de marca para redes sociales (ajustados a la imagen) */
+    
     --color-linkedin: #0A66C2; 
     --color-twitter: #1DA1F2;
     --color-dribbble: #EA4C89;
@@ -567,7 +566,6 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
-    /* Margen a la izquierda para el texto, como en la imagen */
     padding-left: 20px; 
     padding-right: 20px;
 }
@@ -627,7 +625,7 @@ body {
     border-radius: 8px;
     margin-bottom: 15px;
     border: 1px solid var(--color-border-light); 
-    position: relative; /* Necesario para posicionar el ícono de detalle */
+    position: relative; 
 }
 .project-image-main img {
     width: 100%;
@@ -640,8 +638,8 @@ body {
     position: absolute;
     bottom: 10px;
     right: 10px;
-    background-color: var(--color-card-bg); /* Fondo blanco */
-    color: var(--color-text-light); /* Ícono gris */
+    background-color: var(--color-card-bg); 
+    color: var(--color-text-light); 
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -677,7 +675,6 @@ body {
 /* --- 4. Footer --- */
 .footer {
     padding: 40px 80px 20px;
-    /* Fondo del footer es ligeramente diferente al fondo principal en la imagen */
     background-color: #F0F0F0; 
     display: flex; 
     flex-direction: column;
@@ -732,15 +729,13 @@ body {
     font-size: 1.1em;
     color: var(--color-text); 
     transition: opacity 0.3s;
-    background-color: var(--color-primary); /* Todos son púrpura en el footer inferior de la imagen */
+    background-color: var(--color-primary);
 }
-/* Estilos de Redes Sociales (Ajustados al púrpura de la imagen) */
+
 .social-icon.linkedin { background-color: var(--color-primary); }
 .social-icon.twitter { background-color: var(--color-primary); }
 .social-icon.dribbble { background-color: var(--color-primary); }
 
-
-/* Footer - Sección de Información de Contacto (con fondo blanco) */
 .contact-info-container {
     padding: 20px 40px;
     display: flex;
