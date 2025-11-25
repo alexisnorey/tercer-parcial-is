@@ -3,6 +3,11 @@
     --font-primary: "Manrope", sans-serif;
     --grey-20: #333333;
     --grey-30: #4d4d4d;
+    --grey-50: #808080;
+    --peach-85: #E1DBD1;
+    --peach-90: #EBE7E0;
+    --peach-92: #EEEBE5;
+    --peach-96: #F7F6F3;
 }
 
 body{
@@ -10,6 +15,49 @@ margin:0;
 font-family:Arial, Helvetica, sans-serif;
 background:#efe9e3;
 color:#222;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+nav a.active, nav a:hover {
+    color: var(--text-grey);
+}
+
+.btn-img-wrapper {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.btn-custom-img {
+    /* Ajusta la altura según tu imagen real */
+    height: 59px; 
+    width: auto; /* Mantiene la proporción */
+    display: block;
+    border-radius: 8px; /* Si tu imagen es cuadrada y quieres bordes redondos via CSS */
+}
+
+.link-arrow{
+  text-decoration: none;
+  align-content: center;
 }
 
 .skills-section{
