@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+:root {
+    --font-primary: "Manrope", sans-serif;
+    --grey-20: #333333;
+    --grey-30: #4d4d4d;
+}
+
 body{
 margin:0;
 font-family:Arial, Helvetica, sans-serif;
@@ -56,15 +63,6 @@ color:#666;
 font-size:0.95rem;
 line-height:1.5em;
 }
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-
-
-:root {
-    --font-primary: "Manrope", sans-serif;
-    --grey-20: #333333;
-    --grey-30: #4d4d4d;
-}
-
 
 * {
     box-sizing: border-box;
@@ -405,18 +403,18 @@ body {
     padding-left: 162px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  }
+}
   
-  .box-a{
+.box-a{
     color: #F5F3F0;
     border-radius: 8px;
     padding: 20px;
     font-size: 18px;
     list-style-type: none;
     flex: 1;
-  }
+}
 
-  .box-c{
+.box-c{
     color: #F5F3F0;
     border-radius: 8px;
     padding: 20px;
@@ -426,9 +424,9 @@ body {
     flex-direction: row;
     flex: 1;
     justify-content: center;
-  }
+}
 
-  .wrapper .box-c {
+.wrapper .box-c {
     display: flex;
     flex-direction: row;
     justify-content: center;
