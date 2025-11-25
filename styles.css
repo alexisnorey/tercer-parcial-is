@@ -43,13 +43,6 @@ body {
     color: var(--grey-20);
 }
 
-body {
-    background-color: #eeebe5;
-    font-family: var(--font-primary);
-    line-height: 1.6;
-    padding: 40px 20px;
-}
-
 .benefits {
     max-width: 1596px;
     margin: 0 auto;
