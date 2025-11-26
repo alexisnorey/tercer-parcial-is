@@ -62,7 +62,12 @@ line-height:1.5em;
 :root {
     --font-primary: "Manrope", sans-serif;
     --grey-20: #333333;
-    --grey-30: #4d4d4d;
+    --grey-30: #4d4d4d;    
+    --grey-50: #808080;
+    --peach-85: #E1DBD1;
+    --peach-90: #EBE7E0;
+    --peach-92: #EEEBE5;
+    --peach-96: #F7F6F3;
 }
 
 
