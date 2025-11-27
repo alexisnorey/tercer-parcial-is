@@ -30,7 +30,7 @@ margin:0 auto;
 }
 
 .skill-card{
-background:white;
+background:var(--peach-96);
 padding:25px;
 border-radius:12px;
 box-shadow:0 4px 12px rgba(0,0,0,0.08);
@@ -828,7 +828,7 @@ position: absolute;
     text-align: center;
     padding: 80px 20px 50px;
     position: relative;
-    background-color: var(--color-background); 
+    background-color: var(--peach-92); 
 }
 
 .header-icon {
@@ -885,7 +885,6 @@ position: absolute;
 }
 
 .section-header {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 30px;
@@ -929,7 +928,7 @@ position: absolute;
 }
 
 .project-card {
-    background-color: var(--color-card-bg); 
+    background-color: var(--peach-96); 
     border-radius: 12px;
     padding: 20px;
     box-shadow: 0 10px 30px var(--color-shadow-light); 
@@ -1045,10 +1044,11 @@ position: absolute;
     .section-header h2 {
     font-size: 2rem;
     }
-    
+    :root{
     --color-linkedin: #0A66C2; 
     --color-twitter: #1DA1F2;
     --color-dribbble: #EA4C89;
+    }
 }
 
 /* --- 1. Navbar --- */
@@ -1348,7 +1348,7 @@ position: absolute;
 
 /*Tabletas y laptops*/
 @media (min-width: 896px) and (max-width: 1440px) {
-    
+    }
     .navbar {
         padding: 20px 40px; 
     }
@@ -1380,6 +1380,7 @@ position: absolute;
 
     .projects-section {
         padding: 40px 40px; 
+        background-color: var(--peach-92);
     }
     
     .projects-grid {
